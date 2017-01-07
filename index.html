@@ -34,26 +34,70 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li cltass="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Talk Sick</h1>
-        <h4><em>featuring</em></h4><br><br>
-        <p class="lead">IV<br> <a href="https://soundcloud.com/jaegotbeatz">Jae Lz</a></p>
+    <div class="keys">
+      <div data-key="84" class="key">
+        <kbd>T</kbd>
+        <span class="sound">clap</span>
       </div>
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="32" class="key"
+        <kbd>space</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div data-key="73" class="key">
+        <kbd>I</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="67" class="key">
+        <kbd>C</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">openhat</span>
+      </div>
+    </div>
+    <div class="centered">
+      <h2><em>featuring</em></h2><br><br>
+      <p class="lead">IV<br> <a href="https://soundcloud.com/jaegotbeatz">Jae Lz</a></p>
+    </div>
 
-    </div><!-- /.container -->
-
+    <audio data-key="84" src="sounds/clap.wav"></audio>
+    <audio data-key="65" src="sounds/hihat.wav"></audio>
+    <audio data-key="76" src="sounds/kick.wav"></audio>
+    <audio data-key="75" src="sounds/openhat.wav"></audio>
+    <audio data-key="32" src="sounds/boom.wav"></audio>
+    <audio data-key="83" src="sounds/ride.wav"></audio>
+    <audio data-key="73" src="sounds/snare.wav"></audio>
+    <audio data-key="67" src="sounds/tom.wav"></audio>
+    <audio data-key="190" src="sounds/tink.wav"></audio>
+    <div>
+      <p></p>
+    </div>
     <div class="footer">
-      coming soon<br>
+      <br>
       &copy All Rights Reserved, Talk Sick, Inc.
     </div>
 
@@ -61,10 +105,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Drum kit -->
+    <script src="js/drums.js"> </script>
   </body>
 </html>
